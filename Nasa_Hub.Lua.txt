@@ -3075,6 +3075,8 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(1199.31287, 52.2717781, 1536.91516, -0.929782331, 6.60215846e-08, -0.368109822, 3.9077392e-08, 1, 8.06501603e-08, 0.368109822, 6.06023249e-08, -0.929782331)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3089,6 +3091,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-1502.74609, 98.5633316, 90.6417007, 0.836947978, 0, 0.547282517, -0, 1, -0, -0.547282517, 0, 0.836947978)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 500 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3103,6 +3106,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-1223.52808, 6.27936459, -502.292664, 0.310949147, -5.66602516e-08, 0.950426519, -3.37275488e-08, 1, 7.06501808e-08, -0.950426519, -5.40241736e-08, 0.310949147)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3117,6 +3121,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-1219.32324, 4.75205183, 3915.63452, -0.966492832, -6.91238853e-08, 0.25669381, -5.21195496e-08, 1, 7.3047012e-08, -0.25669381, 5.72206496e-08, -0.966492832)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3131,6 +3136,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-1146.49646, 96.0936813, 4312.1333, -0.978175163, -1.53222057e-08, 0.207781896, -3.33316912e-08, 1, -8.31738873e-08, -0.207781896, -8.82843523e-08, -0.978175163)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3144,6 +3150,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(932.788818, 6.4503746, 4488.24609, -0.998625934, 3.08948351e-08, 0.0524050146, 2.79967303e-08, 1, -5.60361286e-08, -0.0524050146, -5.44919629e-08, -0.998625934)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 500 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3157,6 +3164,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(1580.03198, 4.61375761, 4366.86426, 0.135744005, -6.44280718e-08, -0.990743816, 4.35738308e-08, 1, -5.90598574e-08, 0.990743816, -3.51534837e-08, 0.135744005)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3170,6 +3178,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(1370.24316, 102.403511, -1411.52905, 0.980274439, -1.12995728e-08, 0.197641045, -9.57343449e-09, 1, 1.04655214e-07, -0.197641045, -1.04482936e-07, 0.980274439)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 500 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3183,6 +3192,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(1370.24316, 102.403511, -1411.52905, 0.980274439, -1.12995728e-08, 0.197641045, -9.57343449e-09, 1, 1.04655214e-07, -0.197641045, -1.04482936e-07, 0.980274439)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3196,6 +3206,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-4882.8623, 22.6520386, 4255.53516, 0.273695946, -5.40380647e-08, -0.96181643, 4.37720793e-08, 1, -4.37274998e-08, 0.96181643, -3.01326679e-08, 0.273695946)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 500 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3229,6 +3240,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(4977.88525390625, 72.67780303955078, 498.108642578125)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 1000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3242,6 +3254,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(5656.42333984375, 72.67793273925781, 866.1055908203125)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 1000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3255,6 +3268,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-1779.97583, 44.6077499, -2736.35474, 0.984437346, 4.10396339e-08, 0.175734788, -3.62286876e-08, 1, -3.05844168e-08, -0.175734788, 2.3741821e-08, 0.984437346)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 1000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3268,6 +3282,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-1274.75903, 58.1895943, -3188.16309, 0.464524001, 6.21005611e-08, 0.885560572, -4.80449414e-09, 1, -6.76054768e-08, -0.885560572, 2.71497012e-08, 0.464524001)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 1000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3281,6 +3296,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-5363.01123, 41.5056877, 8548.47266, -0.578253984, -3.29503091e-10, 0.815856814, 9.11209668e-08, 1, 6.498761e-08, -0.815856814, 1.11920997e-07, -0.578253984)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 1000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3295,6 +3311,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-5787.99023, 120.864456, 8762.25293, -0.188358366, -1.84706277e-08, 0.982100308, -1.23782129e-07, 1, -4.93306951e-09, -0.982100308, -1.22495649e-07, -0.188358366)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 1000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3371,6 +3388,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(5595.06982, 41.5013695, 3961.47095, -0.992138803, -2.11610267e-08, -0.125142589, -1.34249509e-08, 1, -6.26613996e-08, 0.125142589, -6.04887518e-08, -0.992138803)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3385,6 +3403,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(5658.5752, 38.5361786, 4928.93506, -0.996873081, 2.12391046e-06, -0.0790185928, 2.16989656e-06, 1, -4.96097414e-07, 0.0790185928, -6.66008248e-07, -0.996873081)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3409,6 +3428,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-973.731995, 95.8733215, 1836.46936, 0.999135971, 2.02326991e-08, -0.0415605344, -1.90767793e-08, 1, 2.82094952e-08, 0.0415605344, -2.73922804e-08, 0.999135971)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 1000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3429,6 +3449,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(296.786499, 72.9948196, -57.1298141, -0.876037002, -5.32364979e-08, 0.482243896, -3.87658332e-08, 1, 3.99718729e-08, -0.482243896, 1.63222538e-08, -0.876037002)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3442,6 +3463,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-2913.26367, 73.0011826, -2971.64282, 0.910507619, 0, 0.413492233, 0, 1.00000012, 0, -0.413492233, 0, 0.910507619)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3455,6 +3477,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-1868.67688, 73.0011826, -3321.66333, -0.971402287, 1.06502087e-08, 0.237439692, 3.68856199e-08, 1, 1.06050372e-07, -0.237439692, 1.11775684e-07, -0.971402287)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3468,6 +3491,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-5634.83838, 126.067039, -697.665039, -0.992770672, 6.77618939e-09, 0.120025545, 1.65461245e-08, 1, 8.04023372e-08, -0.120025545, 8.18070234e-08, -0.992770672)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3481,6 +3505,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-6030.32031, 6.4377408, -1313.5564, -0.856965423, 3.9138893e-08, -0.515373945, -1.12178942e-08, 1, 9.45958547e-08, 0.515373945, 8.68467822e-08, -0.856965423)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3494,6 +3519,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(535.893433, 401.457062, -5329.6958, -0.999524176, 0, 0.0308452044, 0, 1, -0, -0.0308452044, 0, -0.999524176)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3508,6 +3534,7 @@ task.spawn(function()
                             
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3521,6 +3548,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-5769.2041, 37.9288292, -4468.38721, -0.569419742, -2.49055017e-08, 0.822046936, -6.96206541e-08, 1, -1.79282633e-08, -0.822046936, -6.74401548e-08, -0.569419742)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3534,6 +3562,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-6400.85889, 24.7645149, -5818.63574, -0.964845479, 8.65926566e-08, -0.262817472, 3.98261392e-07, 1, -1.13260398e-06, 0.262817472, -1.19745812e-06, -0.964845479)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3547,6 +3576,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-5496.65576, 58.6890411, -5929.76855, -0.885073781, 0, -0.465450764, 0, 1.00000012, -0, 0.465450764, 0, -0.885073781)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3560,6 +3590,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-5169.71729, 34.1234779, -4669.73633, -0.196780294, 0, 0.98044765, 0, 1.00000012, -0, -0.98044765, 0, -0.196780294)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3613,6 +3644,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(5995.07471, 57.3188477, -6183.47314, 0.702747107, -1.53454167e-07, -0.711440146, -1.08168464e-07, 1, -3.22542007e-07, 0.711440146, 3.03620908e-07, 0.702747107)
 								if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 10000 then
 									game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 									game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
 									wait(1)
 									game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3626,6 +3658,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(5518.00684, 60.5559731, -6828.80518, -0.650781393, -3.64292951e-08, 0.759265184, -4.07668654e-09, 1, 4.44854642e-08, -0.759265184, 2.58550248e-08, -0.650781393)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3639,6 +3672,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-3029.78467, 66.944252, -9777.38184, -0.998552859, 1.09555076e-08, 0.0537791774, 7.79564235e-09, 1, -5.89660658e-08, -0.0537791774, -5.84614881e-08, -0.998552859)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3652,6 +3686,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-3262.00098, 298.699615, -10553.6943, -0.233570755, -4.57538185e-08, 0.972339869, -5.80986068e-08, 1, 3.30992194e-08, -0.972339869, -4.87605725e-08, -0.233570755)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3669,6 +3704,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(81.164993286133, 43.755737304688, 5724.7021484375)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3682,6 +3718,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(81.164993286133, 43.755737304688, 5724.7021484375)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3695,6 +3732,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(6241.9951171875, 51.522083282471, -1243.9771728516)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3708,6 +3746,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(6488.9155273438, 383.38375854492, -110.66246032715)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3721,6 +3760,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(4770.4990234375, 758.95520019531, 1069.8680419922)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3734,6 +3774,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(4530.3540039063, 656.75695800781, -131.60952758789)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3747,6 +3788,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(2490.0844726563, 190.4232635498, -7160.0502929688)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3760,6 +3802,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(3951.3903808594, 229.11549377441, -6912.81640625)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3773,6 +3816,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-10322.400390625, 390.94473266602, -8580.0908203125)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3786,6 +3830,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-11194.541992188, 442.02795410156, -8608.806640625)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3799,6 +3844,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-13225.809570313, 428.19387817383, -7753.1245117188)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3812,6 +3858,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-13869.172851563, 564.95251464844, -7084.4135742188)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3825,6 +3872,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-11982.221679688, 376.32522583008, -10451.415039063)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3838,6 +3886,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-13282.3046875, 496.23684692383, -9565.150390625)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3851,6 +3900,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-8761.3154296875, 164.85829162598, 6161.1567382813)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3864,6 +3914,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-10093.930664063, 237.38233947754, 6180.5654296875)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3877,6 +3928,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-9503.9921875, 272.1305847167969, 6250.5703125)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3890,6 +3942,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-9589.93848, 4.85058546, 6190.27197)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3903,6 +3956,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-2150.587890625, 122.49767303467, -10358.994140625)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3916,6 +3970,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-2150.587890625, 122.49767303467, -10358.994140625)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3929,6 +3984,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-890.55895996094, 186.34135437012, -11127.306640625)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3942,6 +3998,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-890.55895996094, 186.34135437012, -11127.306640625)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3955,6 +4012,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-2280.569091796875, 89.83930206298828, -12041.4326171875)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3968,6 +4026,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-1621.9512939453125, 195.68287658691406, -12281.0908203125)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3981,6 +4040,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-1912.928955078125, 113.134033203125, -12990.53515625)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -3994,6 +4054,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-2203.302490234375, 109.90937042236328, -12788.7333984375)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -4007,6 +4068,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(89.75547790527344, 73.66654968261719, -12315.4609375)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -4020,6 +4082,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(614.6710205078125, 81.79888153076172, -12578.4521484375)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -4033,6 +4096,7 @@ task.spawn(function()
                                 CFrameMon = CFrame.new(-92.28578186035156, 132.29556274414062, -12655.9111328125)
                             if _G.AUTOFARM and _G.By_Pass and (CFrameMon.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
                                 game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameMon
                                 wait(1)
                                 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -4606,11 +4670,33 @@ Section2:Button("FPS BOOST",function()
     end)
 end)
 
+spawn(function()
+    game:GetService("RunService").Heartbeat:Connect(function() CheckQuest()
+		pcall(function()
+			if _G.BringMob then
+				for i,v in pairs(game:GetService("Workspace").Enemies:GetChildren()) do
+					if _G.AUTOFARM and StartMagnet and v.Name == Ms and (v.HumanoidRootPart.Position - PosMon.Position).magnitude <= 350 then
+						v.HumanoidRootPart.CFrame = PosMon
+						v.HumanoidRootPart.CanCollide = false
+						v.HumanoidRootPart.Size = Vector3.new(50,50,50)
+						if v.Humanoid:FindFirstChild("Animator") then
+							v.Humanoid.Animator:Destroy()
+						end
+						sethiddenproperty(game.Players.LocalPlayer, "SimulationRadius",  math.huge)
+					end
+				end
+			end
+		end)
+    end)
+	end)
 
-Section2:Toggle("FastAttack",false,function(a)
+Section2:Toggle("FastAttack",true,function(a)
     _G.FastAttack = a
 end)
 
+Section2:Toggle("Bring Mob",true,function(a)
+    _G.BringMob = a
+end)
 
 Section2:Toggle("White Screen",false,function(v)
     _G.WhiteScreen = v
@@ -4621,15 +4707,15 @@ Section2:Toggle("White Screen",false,function(v)
     end
 end)
 
-Section2:Toggle("Bypass Farm",true,function(a)
+Section2:Toggle("Bypass Farm",false,function(a)
     _G.By_Pass = a
 end)
 
-Section2:Toggle("AuTo Set Spawn",true,function(a)
+Section2:Toggle("Auto Set Spawn",true,function(a)
     _G.SetSpawn = a
 end)
 
-Section2:Toggle("AuTo Haki",true,function(a)
+Section2:Toggle("Auto Haki",true,function(a)
     _G.Haki = a
 end)
 
@@ -4678,6 +4764,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(-1458.89502, 29.8870335, -50.633564, 0.858821094, 1.13848939e-08, 0.512275636, -4.85649254e-09, 1, -1.40823326e-08, -0.512275636, 9.6063415e-09, 0.858821094)
 		if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -4688,6 +4775,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(-683.519897, 13.8534927, 1610.87854, -0.290192783, 6.88365773e-08, 0.956968188, 6.98413629e-08, 1, -5.07531119e-08, -0.956968188, 5.21077759e-08, -0.290192783)
 		if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -4698,6 +4786,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(-4955.72949, 80.8163834, 4305.82666, -0.433646321, -1.03394289e-08, 0.901083171, -3.0443168e-08, 1, -3.17633075e-09, -0.901083171, -2.88092288e-08, -0.433646321)
 		if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -4711,6 +4800,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(-1223.52808, 6.27936459, -502.292664, 0.310949147, -5.66602516e-08, 0.950426519, -3.37275488e-08, 1, 7.06501808e-08, -0.950426519, -5.40241736e-08, 0.310949147)
 		if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -4724,6 +4814,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(-1147.65173, 32.5966301, 4156.02588, 0.956680477, -1.77109952e-10, -0.29113996, 5.16530874e-10, 1, 1.08897802e-09, 0.29113996, -1.19218679e-09, 0.956680477)
     	if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -4737,6 +4828,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(1221.7356, 138.046906, -1488.84082, 0.349343032, -9.49245944e-08, 0.936994851, 6.29478194e-08, 1, 7.7838429e-08, -0.936994851, 3.17894653e-08, 0.349343032)
     	if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -4747,6 +4839,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(-2848.59399, 7.4272871, 5342.44043, -0.928248107, -8.7248246e-08, 0.371961564, -7.61816636e-08, 1, 4.44474857e-08, -0.371961564, 1.29216433e-08, -0.92824)
     	if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -4760,6 +4853,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(-5078.45898, 99.6520691, 4402.1665, -0.555574954, -9.88630566e-11, 0.831466436, -6.35508286e-08, 1, -4.23449258e-08, -0.831466436, -7.63661632e-08, -0.555574954)
     	if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -4773,6 +4867,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(5232.5625, 5.26856995, 747.506897, 0.943829298, -4.5439414e-08, 0.330433697, 3.47818627e-08, 1, 3.81658154e-08, -0.330433697, -2.45289105e-08, 0.943829298)
     	if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -4786,6 +4881,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(5232.5625, 5.26856995, 747.506897, 0.943829298, -4.5439414e-08, 0.330433697, 3.47818627e-08, 1, 3.81658154e-08, -0.330433697, -2.45289105e-08, 0.943829298)
     	if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -4799,6 +4895,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(5232.5625, 5.26856995, 747.506897, 0.943829298, -4.5439414e-08, 0.330433697, 3.47818627e-08, 1, 3.81658154e-08, -0.330433697, -2.45289105e-08, 0.943829298)
     	if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -4812,6 +4909,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(-5530.12646, 22.8769703, 8859.91309, 0.857838571, 2.23414389e-08, 0.513919294, 1.53689133e-08, 1, -6.91265853e-08, -0.513919294, 6.71978384e-08, 0.857838571)
     	if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -4825,6 +4923,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(61351.7773, 31.0306778, 1113.31409, 0.999974668, 0, -0.00714713801, 0, 1.00000012, 0, 0.00714714266, 0, 0.999974549)
     	if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -4838,6 +4937,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(-7925.48389, 5550.76074, -636.178345, 0.716468513, -1.22915289e-09, 0.697619379, 3.37381434e-09, 1, -1.70304748e-09, -0.697619379, 3.57381835e-09, 0.716468513)
     	if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -4851,6 +4951,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(-7917.53613, 5616.61377, -2277.78564, 0.965189934, 4.80563429e-08, -0.261550069, -6.73089886e-08, 1, -6.46515304e-08, 0.261550069, 8.00056768e-08, 0.965189934)
     	if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -4872,6 +4973,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(-1736.26587, 198.627731, -236.412857, -0.997808516, 0, -0.0661673471, 0, 1, 0, 0.0661673471, 0, -0.997808516)
 		if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -4885,6 +4987,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(2203.76953, 448.966034, 752.731079, -0.0217453763, 0, -0.999763548, 0, 1, 0, 0.999763548, 0, -0.0217453763)
 		if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -4898,6 +5001,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(-2297.40332, 115.449463, -3946.53833, 0.961227536, -1.46645796e-09, -0.275756449, -2.3212845e-09, 1, -1.34094433e-08, 0.275756449, 1.35296352e-08, 0.961227536)
 		if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -4908,6 +5012,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(2288.802, 15.1870775, 863.034607, 0.99974072, -8.41247214e-08, -0.0227668174, 8.4774733e-08, 1, 2.75850098e-08, 0.0227668174, -2.95079072e-08, 0.99974072)
 		if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -4921,6 +5026,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(-5115.72754, 23.7664986, -5338.2207, 0.251453817, 1.48345061e-08, -0.967869282, 4.02796978e-08, 1, 2.57916977e-08, 0.967869282, -4.54708946e-08, 0.251453817)
 		if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -4931,6 +5037,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(916.928589, 181.092773, 33422, -0.999505103, 9.26310495e-09, 0.0314563364, 8.42916226e-09, 1, -2.6643713e-08, -0.0314563364, -2.63653774e-08, -0.999505103)
 		if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -4941,6 +5048,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(3876.00366, 24.6882591, -3820.21777, -0.976951957, 4.97356325e-08, 0.213458836, 4.57335361e-08, 1, -2.36868622e-08, -0.213458836, -1.33787044e-08, -0.976951957)
 		if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -4951,6 +5059,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(-6221.15039, 16.2351036, -5045.23584, -0.380726993, 7.41463495e-08, 0.924687505, 5.85604774e-08, 1, -5.60738549e-08, -0.924687505, 3.28013137e-08, -0.380726993)
 		if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -4964,6 +5073,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(6407.33936, 340.223785, -6892.521, 0.49051559, -5.25310213e-08, -0.871432424, -2.76146022e-08, 1, -7.58250565e-08, 0.871432424, 6.12576301e-08, 0.49051559)
 		if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -4977,6 +5087,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(-3570.18652, 123.328949, -11555.9072, 0.465199202, -1.3857326e-08, 0.885206044, 4.0332897e-09, 1, 1.35347511e-08, -0.885206044, -2.72606271e-09, 0.465199202)
 		if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -4991,6 +5102,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(-1085, 40, 6779)
 		if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -5004,6 +5116,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(5659, 602, 244)
 		if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -5017,6 +5130,7 @@ function CheckBossQuest()
         CFrameBoss =CFrame.new(2846, 433, -7100)
 		if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -5030,6 +5144,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(-13221, 325, -8405)
 		if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -5043,6 +5158,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(5182, 23, -20)
 		if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -5056,6 +5172,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(-821, 66, -10965)
 		if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -5066,6 +5183,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(-5359, 424, -2735)
 		if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -5076,6 +5194,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(-10248.3936, 353.79129, -9306.34473)
 		if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
@@ -5086,6 +5205,7 @@ function CheckBossQuest()
         CFrameBoss = CFrame.new(-9515.62109, 315.925537, 6691.12012)
 		if _G.Select_Boss and (CFrameBoss.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 3000 then
 			game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                                wait(1)
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameBoss
 			wait(1)
 			game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
