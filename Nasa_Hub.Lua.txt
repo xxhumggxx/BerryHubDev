@@ -1528,7 +1528,6 @@ local Window=library:Evil()
 
 local Tab = Window:Tab("Genaral","7072717697")
 local Tab2 = Window:Tab("Players","7072724538")
-local Race = Windown:Tab("Race","28288282828")
 local Tab3 = Window:Tab("Shop/Fruits","7072715646")
 local Tab4 = Window:Tab("Island","6035190846")
 local Tab5 = Window:Tab("Dungeon","7044284832")
@@ -1892,12 +1891,7 @@ if game.PlaceId == 2753915549 then
 
 	end
 	
-------------------------------------------------------------------------------
-
-local Race1 = Race:Section("All","Left")
-local Race2 = Race:Section("Esp/Other","Right")
-
-
+------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------
 
 -----------------------------------------------------------
