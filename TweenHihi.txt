@@ -1,0 +1,211 @@
+function Click()
+        game:GetService'VirtualUser':CaptureController()
+        game:GetService'VirtualUser':Button1Down(Vector2.new(1280, 672))
+    end
+    
+    function AutoHaki()
+        if not game:GetService("Players").LocalPlayer.Character:FindFirstChild("HasBuso") then
+            game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Buso")
+        end
+    end
+    
+    function UnEquipWeapon(Weapon)
+        if game.Players.LocalPlayer.Character:FindFirstChild(Weapon) then
+            _G.NotAutoEquip = true
+            wait(.5)
+            game.Players.LocalPlayer.Character:FindFirstChild(Weapon).Parent = game.Players.LocalPlayer.Backpack
+            wait(.1)
+            _G.NotAutoEquip = false
+        end
+    end
+    
+    function EquipWeapon(ToolSe)
+        if not _G.NotAutoEquip then
+            if game.Players.LocalPlayer.Backpack:FindFirstChild(ToolSe) then
+                Tool = game.Players.LocalPlayer.Backpack:FindFirstChild(ToolSe)
+                wait(.1)
+                game.Players.LocalPlayer.Character.Humanoid:EquipTool(Tool)
+            end
+        end
+    end
+    
+    spawn(function()
+	while wait() do
+		for i,v in pairs(game:GetService("Workspace")["_WorldOrigin"]:GetChildren()) do
+			pcall(function()
+				if v.Name == ("CurvedRing") or v.Name == ("SlashHit") or v.Name == ("SwordSlash") or v.Name == ("SlashTail") or v.Name == ("Sounds") then
+					v:Destroy()
+				end
+			end)
+		end
+	end
+    end)
+
+function GetDistance(target)
+        return math.floor((target.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude)
+    end
+    
+    function BTP(P)
+	repeat wait(1)
+		game.Players.LocalPlayer.Character.Humanoid:ChangeState(15)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = P
+		task.wait()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = P
+	until (P.Position-game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude <= 1500
+end
+
+function TelePPlayer(P)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = P
+end
+    
+    function TP(Pos)
+    Distance = (Pos.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+    if Distance < 25 then
+        Speed = 10000
+    elseif Distance < 50 then
+        Speed = 2000
+    elseif Distance < 150 then
+        Speed = 800
+    elseif Distance < 250 then
+        Speed = 600
+    elseif Distance < 500 then
+        Speed = 400
+    elseif Distance < 750 then
+        Speed = 250
+    elseif Distance >= 1000 then
+        Speed = 200
+    end
+    game:GetService("TweenService"):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,
+        TweenInfo.new(Distance/Speed, Enum.EasingStyle.Linear),
+        {CFrame = Pos}
+    ):Play()
+end
+
+    function TP1(Pos)
+        Distance = (Pos.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+        if Distance < 25 then
+            Speed = 5000
+        elseif Distance < 50 then
+            Speed = 2000
+        elseif Distance < 150 then
+            Speed = 800
+        elseif Distance < 250 then
+            Speed = 600
+        elseif Distance < 500 then
+            Speed = 300
+        elseif Distance < 750 then
+            Speed = 250
+        elseif Distance >= 1000 then
+            Speed = 200
+        end
+        game:GetService("TweenService"):Create(
+            game:GetService("Players").LocalPlayer.Character.HumanoidRootPart,
+            TweenInfo.new(Distance/Speed, Enum.EasingStyle.Linear),
+            {CFrame = Pos}
+        ):Play()
+end
+
+    function topos(Pos)
+        Distance = (Pos.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+        if Distance < 25 then
+            Speed = 5000
+        elseif Distance < 50 then
+            Speed = 2000
+        elseif Distance < 150 then
+            Speed = 800
+        elseif Distance < 250 then
+            Speed = 600
+        elseif Distance < 500 then
+            Speed = 300
+        elseif Distance < 750 then
+            Speed = 250
+        elseif Distance >= 1000 then
+            Speed = 200
+        end
+        game:GetService("TweenService"):Create(
+            game:GetService("Players").LocalPlayer.Character.HumanoidRootPart,
+            TweenInfo.new(Distance/Speed, Enum.EasingStyle.Linear),
+            {CFrame = Pos}
+        ):Play()
+end
+
+function BTP(P1)
+game.Players.LocalPlayer.Character.Head:Destroy()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = P1
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = P1
+game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
+end
+
+getgenv().ToTargets = function(p)
+    task.spawn(function()
+        pcall(function()
+            if game:GetService("Players").LocalPlayer:DistanceFromCharacter(p.Position) <= 250 then 
+                game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = p
+            elseif not game.Players.LocalPlayer.Character:FindFirstChild("Root")then 
+                local K = Instance.new("Part",game.Players.LocalPlayer.Character)
+                K.Size = Vector3.new(1,0.5,1)
+                K.Name = "Root"
+                K.Anchored = true
+                K.Transparency = 1
+                K.CanCollide = false
+                K.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(0,20,0)
+            end
+            local U = (game.Players.LocalPlayer.Character.HumanoidRootPart.Position-p.Position).Magnitude
+            local z = game:service("TweenService")
+            local B = TweenInfo.new((p.Position-game.Players.LocalPlayer.Character.Root.Position).Magnitude/300,Enum.EasingStyle.Linear)
+            local S,g = pcall(function()
+            local q = z:Create(game.Players.LocalPlayer.Character.Root,B,{CFrame = p})
+            q:Play()
+        end)
+        if not S then 
+            return g
+        end
+        game.Players.LocalPlayer.Character.Root.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+            if S and game.Players.LocalPlayer.Character:FindFirstChild("Root") then 
+                pcall(function()
+                    if (game.Players.LocalPlayer.Character.HumanoidRootPart.Position-p.Position).Magnitude >= 20 then 
+                        spawn(function()
+                            pcall(function()
+                                if (game.Players.LocalPlayer.Character.Root.Position-game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude > 150 then 
+                                    game.Players.LocalPlayer.Character.Root.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+                                else 
+                                    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=game.Players.LocalPlayer.Character.Root.CFrame
+                                end
+                            end)
+                        end)
+                    elseif (game.Players.LocalPlayer.Character.HumanoidRootPart.Position-p.Position).Magnitude >= 10 and(game.Players.LocalPlayer.Character.HumanoidRootPart.Position-p.Position).Magnitude < 20 then 
+                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = p
+                    elseif (game.Players.LocalPlayer.Character.HumanoidRootPart.Position-p.Position).Magnitude < 10 then 
+                        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = p
+                    end
+                end)
+            end
+	    end)
+    end)
+    end
+
+function Bypass(Position)game.Players.LocalPlayer.Character.Head:Destroy()game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = Position wait(.5)game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = Position game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")end
+  
+  local numpos = 0
+  function bypasstp(x)
+      spawn(function()
+          while task.wait() do
+              game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = x
+              if game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame == x then
+                  game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetSpawnPoint")
+              end
+              numpos = numpos + 1
+              if numpos == 5 then
+                  game.Players.LocalPlayer.Character.Humanoid.Health = 0
+                  numpos=0
+                  break
+              end
+              task.wait()
+          end
+      end)
+  end
+  
+  
+AutoHaki()
